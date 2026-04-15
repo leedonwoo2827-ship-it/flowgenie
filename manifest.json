@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "FlowGenie",
+  "version": "0.1.0",
+  "description": "Batch image generation automation for Google Flow (ImageFX)",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "sidePanel",
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads",
+    "debugger"
+  ],
+  "host_permissions": [
+    "https://labs.google/*",
+    "https://aisandbox-pa.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+  "side_panel": {
+    "default_path": "sidepanel/panel.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://labs.google/fx/*"],
+      "js": ["content/interceptor.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://labs.google/fx/*"],
+      "js": ["content/bridge.js"],
+      "world": "ISOLATED",
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "FlowGenie"
+  }
+}

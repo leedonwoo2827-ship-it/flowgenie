@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowGenie</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <!-- ================================================================ -->
+  <!-- Header                                                           -->
+  <!-- ================================================================ -->
+  <header id="header">
+    <div class="header-left">
+      <h1>FlowGenie</h1>
+      <span id="connection-badge" class="badge disconnected">Disconnected</span>
+    </div>
+    <div class="header-right">
+      <button id="btn-settings" class="icon-btn" title="Settings">&#9881;</button>
+    </div>
+  </header>
+
+  <!-- ================================================================ -->
+  <!-- Config Panel (collapsible)                                       -->
+  <!-- ================================================================ -->
+  <section id="config-panel" class="panel collapsed">
+    <div class="config-row">
+      <label for="sel-model">Model</label>
+      <select id="sel-model">
+        <option value="IMAGEN_3_5" selected>Imagen 4</option>
+        <option value="GEM_PIX">Nano Banana Pro</option>
+      </select>
+    </div>
+    <div class="config-row">
+      <label for="sel-ratio">Aspect Ratio</label>
+      <select id="sel-ratio">
+        <option value="1:1" selected>1:1</option>
+        <option value="3:4">3:4</option>
+        <option value="4:3">4:3</option>
+        <option value="9:16">9:16</option>
+        <option value="16:9">16:9</option>
+      </select>
+    </div>
+    <div class="config-row">
+      <label for="sel-mode">Mode</label>
+      <select id="sel-mode">
+        <option value="dom" selected>DOM (stable)</option>
+        <option value="api">API (fast)</option>
+      </select>
+    </div>
+    <div class="config-row">
+      <label for="inp-delay-min">Delay (s)</label>
+      <div class="delay-inputs">
+        <input type="number" id="inp-delay-min" min="1" max="30" value="3" step="1">
+        <span>~</span>
+        <input type="number" id="inp-delay-max" min="1" max="60" value="8" step="1">
+      </div>
+    </div>
+    <div class="config-row">
+      <label for="inp-images">Images/Prompt</label>
+      <input type="number" id="inp-images" min="1" max="4" value="4" step="1">
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- Prompt Input                                                     -->
+  <!-- ================================================================ -->
+  <section id="prompt-section" class="panel">
+    <div class="prompt-actions">
+      <button id="btn-load-json" class="btn secondary">Load JSON</button>
+      <button id="btn-load-txt" class="btn secondary">Load TXT</button>
+      <button id="btn-paste" class="btn secondary">Paste</button>
+      <button id="btn-clear" class="btn secondary danger">Clear</button>
+    </div>
+    <div id="drop-zone" class="drop-zone">
+      <p>Drop scriptforge JSON here</p>
+      <p class="hint">or use buttons above</p>
+    </div>
+    <div id="chapter-info" class="chapter-info hidden">
+      <span id="chapter-title"></span>
+      <span id="chapter-count"></span>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- Batch Queue                                                      -->
+  <!-- ================================================================ -->
+  <section id="queue-section" class="panel">
+    <div class="queue-header">
+      <h2>Queue <span id="queue-count">(0)</span></h2>
+      <div class="queue-actions">
+        <button id="btn-start" class="btn primary" disabled>Start</button>
+        <button id="btn-stop" class="btn danger hidden">Stop</button>
+      </div>
+    </div>
+    <ul id="queue-list" class="queue-list">
+      <!-- Batch items rendered here -->
+    </ul>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- Progress Dashboard                                               -->
+  <!-- ================================================================ -->
+  <section id="progress-section" class="panel hidden">
+    <div class="progress-bar-container">
+      <div id="progress-bar" class="progress-bar" style="width: 0%"></div>
+    </div>
+    <div class="progress-stats">
+      <span id="stat-progress">0 / 0</span>
+      <span id="stat-elapsed">00:00</span>
+      <span id="stat-eta">ETA --:--</span>
+    </div>
+    <div class="progress-counters">
+      <span class="counter success" id="stat-success">0</span>
+      <span class="counter fail" id="stat-fail">0</span>
+      <span class="counter skip" id="stat-skip">0</span>
+    </div>
+  </section>
+
+  <!-- ================================================================ -->
+  <!-- Export                                                           -->
+  <!-- ================================================================ -->
+  <section id="export-section" class="panel hidden">
+    <button id="btn-export-csv" class="btn secondary">Export CSV (CapCut)</button>
+  </section>
+
+  <script type="module" src="panel.js"></script>
+</body>
+</html>
