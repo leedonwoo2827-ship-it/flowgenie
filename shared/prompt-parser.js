@@ -27,30 +27,39 @@ export function parsePrompts(text, defaultModel = 'IMAGEN_3_5') {
       const data = JSON.parse(trimmed);
 
       // ScriptForge JSON format: { chapter, title, scenes: [...] }
+      // Also supports extended format: { meta: { chapter, title }, scenes: [{ image_prompt, file_name, scene_id, duration_sec, ... }] }
       if (data.scenes && Array.isArray(data.scenes)) {
-        meta.chapter = data.chapter;
-        meta.title = data.title;
-        const items = data.scenes.map((scene, i) => ({
-          id: crypto.randomUUID(),
-          index: i,
-          prompt: scene.prompt,
-          filename: scene.image_filename || `scene_${String(scene.scene).padStart(2, '0')}.png`,
-          model: mapModel(scene.model, defaultModel),
-          status: STATUS.PENDING,
-          referenceImage: scene.reference_image || null,
-          resultUrls: [],
-          downloadedFiles: [],
-          retries: 0,
-          error: null,
-          startedAt: null,
-          completedAt: null,
-          _meta: {
-            scene: scene.scene,
-            title: scene.title,
-            narrationSeconds: scene.narration_seconds,
-            visualDescription: scene.visual_description,
-          },
-        }));
+        if (data.meta && typeof data.meta === 'object') {
+          meta.chapter = data.meta.chapter;
+          meta.title = data.meta.title;
+        } else {
+          meta.chapter = data.chapter;
+          meta.title = data.title;
+        }
+        const items = data.scenes.map((scene, i) => {
+          const sceneNum = scene.scene ?? parseSceneNumber(scene.scene_id, i + 1);
+          return {
+            id: crypto.randomUUID(),
+            index: i,
+            prompt: scene.prompt || scene.image_prompt,
+            filename: scene.image_filename || toFilename(scene.file_name, sceneNum),
+            model: mapModel(scene.model, defaultModel),
+            status: STATUS.PENDING,
+            referenceImage: scene.reference_image || null,
+            resultUrls: [],
+            downloadedFiles: [],
+            retries: 0,
+            error: null,
+            startedAt: null,
+            completedAt: null,
+            _meta: {
+              scene: sceneNum,
+              title: scene.title,
+              narrationSeconds: scene.narration_seconds ?? scene.duration_sec,
+              visualDescription: scene.visual_description || scene.subtitle || null,
+            },
+          };
+        });
         return { items, meta };
       }
 
@@ -93,6 +102,24 @@ function makeBatchItem(index, prompt, filename, defaultModel) {
     startedAt: null,
     completedAt: null,
   };
+}
+
+/**
+ * Extract scene number from scene_id string like "s01" → 1, "s12" → 12.
+ */
+function parseSceneNumber(sceneId, fallback) {
+  if (!sceneId) return fallback;
+  const m = sceneId.match(/(\d+)/);
+  return m ? parseInt(m[1], 10) : fallback;
+}
+
+/**
+ * Convert file_name (without extension) to a .png filename.
+ * Falls back to scene_XX.png if no file_name.
+ */
+function toFilename(fileName, sceneNum) {
+  if (fileName) return fileName.endsWith('.png') ? fileName : `${fileName}.png`;
+  return `scene_${String(sceneNum).padStart(2, '0')}.png`;
 }
 
 /**

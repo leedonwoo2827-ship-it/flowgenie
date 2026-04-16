@@ -2,20 +2,26 @@
  * FlowGenie JSDoc type definitions
  *
  * @typedef {Object} ScriptForgeScene
- * @property {number} scene - Scene number
+ * @property {number} [scene] - Scene number (classic format)
+ * @property {string} [scene_id] - Scene ID string e.g. "s01" (extended format)
  * @property {string} title - Scene title (Korean)
- * @property {string} image_filename - Target filename for download
- * @property {string} prompt - AI image prompt (English)
+ * @property {string} [image_filename] - Target filename for download (classic)
+ * @property {string} [file_name] - Target filename without extension (extended)
+ * @property {string} [prompt] - AI image prompt (classic)
+ * @property {string} [image_prompt] - AI image prompt (extended)
  * @property {string} model - Model id (e.g. "nano_banana", "imagen_3_5")
- * @property {number} narration_seconds - Narration duration
- * @property {string} visual_description - Visual description (Korean)
- * @property {string|null} reference_image - Path to reference image or null
+ * @property {number} [narration_seconds] - Narration duration (classic)
+ * @property {number} [duration_sec] - Narration duration (extended)
+ * @property {string} [visual_description] - Visual description (Korean)
+ * @property {string} [subtitle] - Subtitle, used as fallback for visual_description
+ * @property {string|null} [reference_image] - Path to reference image or null
  */
 
 /**
  * @typedef {Object} ScriptForgeJSON
- * @property {number} chapter - Chapter number
- * @property {string} title - Chapter title
+ * @property {number} [chapter] - Chapter number (classic format)
+ * @property {string} [title] - Chapter title (classic format)
+ * @property {{ chapter?: string|number, title?: string }} [meta] - Meta info (extended format)
  * @property {ScriptForgeScene[]} scenes - Array of scenes
  */
 
