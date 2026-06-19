@@ -1,0 +1,426 @@
+{
+  "version": "1.0",
+  "chapter": 5,
+  "title": "배움",
+  "subtitle": "배움을 설계하는 기술의 역사",
+  "genre": "classic-documentary-full",
+  "aspect_ratio": "16:9",
+  "total_duration_seconds": 656,
+  "default_model": "nano_banana",
+  "default_transition": "crossfade",
+  "narration_style": {
+    "tone": "차분하고 권위있는",
+    "person": "3인칭",
+    "tempo": "measured",
+    "chars_per_second": 6.5
+  },
+  "scenes": [
+    {
+      "scene": 1,
+      "scene_type": "opening_title",
+      "title": "구독의 시대를 연 작은 태그",
+      "narration_text": "2003년 여름, 미국의 프로그래머 데이브 와이너는 자신의 블로그에 코드 몇 줄을 올렸습니다. 와이너는 1997년에 XML 기반 배포 규격을 설계해 RSS 기술로 발전시켰고, 2003년 여기에 인클로저라는 오디오 연결 태그를 추가했습니다. 이것은 글을 구독하듯이 소리를 구독하는 시대를 열어 정보가 스스로 사용자를 찾아가게 하였습니다. 이 작은 태그 하나가 정보 유통의 거대한 혁명을 촉발한 것입니다.",
+      "narration_seconds": 32,
+      "prompt": "A male American programmer in his forties is looking at a vintage early 2000s desktop computer monitor in a cozy home office. The screen shows lines of computer code with XML tags highlighted. Soft warm lighting from a desk lamp illuminates his focused expression. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_01_winer_rss_blog.png",
+      "visual_description": "2003년 컴퓨터 모니터 화면에 적힌 XML 코드와 RSS 태그를 강조하여 보여주는 연출.",
+      "scene_meta": {
+        "era": "2003년",
+        "mood": "차분하고 학구적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "구독의 시대를 연 작은 태그",
+        "subtitle": "2003년 여름, 인터넷 흐름을 바꿀 혁명이 시작되다",
+        "bgm_hint": "잔잔하고 테크니컬한 분위기의 일렉트로닉 패드 음악"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 2,
+      "scene_type": "body",
+      "title": "주머니 속으로 배달되는 소리",
+      "narration_text": "이 아이디어를 실행에 옮긴 이는 전 방송인 애덤 커리였습니다. 그는 자동 다운로드 프로그램인 아이포더를 개발해 매일 아침 소리가 우리의 주머니 속 디지털 재생기기로 배달되는 세상을 실현했습니다. 이어 2004년 8월에는 개인 오디오 프로그램을 배포하기 시작했습니다. 특정 방송의 편성을 기다릴 필요 없이 제작자와 구독자가 직접 소리를 나누는 최초의 팟캐스트 시대가 개막되었습니다.",
+      "narration_seconds": 33,
+      "prompt": "A Dutch-born former television presenter in his late thirties works on a classic metallic laptop in a creative home studio. On the wooden desk next to the laptop lies a white portable digital music player connected by a white cable. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_02_curry_ipodder.png",
+      "visual_description": "컴퓨터에 연결된 초기 MP3 플레이어와 자동 다운로드 프로그램의 작동 화면.",
+      "scene_meta": {
+        "era": "2004년",
+        "mood": "혁신적이고 희망찬",
+        "transition_hint": "crossfade",
+        "text_overlay": "주머니 속으로 배달되는 소리",
+        "subtitle": "소리가 매일 아침 주머니 속으로 배달되는 세상",
+        "bgm_hint": "희망차고 리드미컬한 어쿠스틱 음악"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 3,
+      "scene_type": "body",
+      "title": "팟캐스트의 탄생",
+      "narration_text": "2004년 2월 12일, 영국의 저널리스트 벤 해머슬리는 영국 일간지 가디언의 기사에서 이 현상을 아이팟과 방송을 합쳐 팟캐스트라고 처음 불렀습니다. 이 조어는 곧 시대를 상징하는 단어가 되었고, 2005년에는 올해의 단어로 선정되었습니다. 기술 매니아들의 실험에 머물렀던 배포 방식이 대중 미디어로 확장되기 시작했음을 보여주는 신호였습니다. 이로써 개인 미디어가 대중의 일상 속으로 파고들 발판이 마련되었습니다.",
+      "narration_seconds": 33,
+      "prompt": "A British journalist in his thirties sits in a bustling London newsroom in 2004, typing on a mechanical keyboard. A printed copy of a prominent daily newspaper lies next to his computer. Dust motes float in the soft sunlight through high windows. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_03_hammersley_coined.png",
+      "visual_description": "2004년 2월 12일자 영국 일간지 가디언의 기사와 신문 인쇄기가 돌아가는 모습.",
+      "scene_meta": {
+        "era": "2004년",
+        "mood": "역사적이고 사실적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "팟캐스트의 탄생",
+        "subtitle": "새로운 미디어 현상, '팟캐스트'로 명명되다",
+        "bgm_hint": "타이핑 소리와 겹치는 차분한 현악 오케스트라"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 4,
+      "scene_type": "body",
+      "title": "대중 미디어로의 통합",
+      "narration_text": "2005년 6월, 한 글로벌 IT 기업이 미디어 재생 소프트웨어에 팟캐스트 디렉토리를 공식 통합했습니다. 이 결정은 기술 매니아들의 실험을 대중 미디어로 도약시킨 계기가 되었습니다. 복잡한 설정 없이 몇 번의 클릭만으로 세계의 다양한 음성을 접하게 되었습니다. 신문이 배달되듯 소리가 일상으로 배달되는 거대한 소리 시장이 본격적으로 막을 올린 것입니다.",
+      "narration_seconds": 32,
+      "prompt": "An office worker in a city subway car in 2005 is listening to audio through white wired earphones connected to a small portable music player. People around him are reading or looking away, captured in natural, candid lighting. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_04_itunes_integration.png",
+      "visual_description": "2005년 미디어 재생 소프트웨어 업데이트 화면과 대중들이 이어폰을 끼고 팟캐스트를 듣는 모습.",
+      "scene_meta": {
+        "era": "2005년",
+        "mood": "활발하고 대중적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "대중 미디어로의 통합",
+        "subtitle": "기술 매니아들의 실험에서 대중 미디어로의 도약",
+        "bgm_hint": "경쾌하고 현대적인 앰비언트 음악"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 5,
+      "scene_type": "body",
+      "title": "정보가 학습자를 찾아가다",
+      "narration_text": "2000년대 초, 사용자는 정보를 얻기 위해 매번 해당 웹사이트를 직접 방문해야 했습니다. 하지만 2005년 출시된 구글 리더는 직관적인 연동을 통해 수백만 명의 사용자를 확보하며 전성기를 열었습니다. 블로그와 뉴스 사이트뿐만 아니라 교육 콘텐츠 플랫폼들도 앞다투어 RSS 피드를 제공했습니다. 더 이상 사이트를 순회하지 않아도 정보가 학습자를 찾아오는 편리한 시대가 시작된 것입니다.",
+      "narration_seconds": 33,
+      "prompt": "A close-up of a computer monitor displaying a clean web interface of a feed reader service in 2005, showing a list of categorized news and education articles. A coffee mug sits on the desk next to the keyboard. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_05_google_reader_feed.png",
+      "visual_description": "2005년 출시된 구글 리더의 웹 브라우저 인터페이스와 정리된 뉴스 피드 목록.",
+      "scene_meta": {
+        "era": "2005년",
+        "mood": "효율적이고 기술적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "정보가 학습자를 찾아가다",
+        "subtitle": "수동적인 정보 탐색에서 자동 배달 시스템으로",
+        "bgm_hint": "안정적이고 중저음이 강조된 신디사이저"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 6,
+      "scene_type": "body",
+      "title": "교실 밖으로 번진 지식",
+      "narration_text": "대학 교육도 이 배달 시스템에 합류했습니다. MIT는 오픈코스웨어 프로젝트에 RSS 피드를 도입해 새로운 강의 자료를 배포했고, 스탠퍼드 대학교는 랜디 리비뉴 정보책임자 주도로 아이튠즈 U라는 강의 배포 체계를 만들었습니다. 2007년 플랫폼이 세계 대학에 개방되자 옥스퍼드, 예일 등이 참여했습니다. 첫해에만 수백만 건의 강의 다운로드가 이루어지며 교실 중심의 배움이 일상 속으로 파고들었습니다.",
+      "narration_seconds": 33,
+      "prompt": "A scenic wide shot of a prestigious California university campus with Spanish-style red-tiled roofs under a sunny sky. Students are walking across the plaza, some holding notebooks, capturing the academic atmosphere of the mid-2000s. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_06_itunes_u_stanford.png",
+      "visual_description": "스탠퍼드 대학교 대학 캠퍼스 전경과 강의를 청취하는 학생들.",
+      "scene_meta": {
+        "era": "2007년",
+        "mood": "지적이고 웅장한",
+        "transition_hint": "crossfade",
+        "text_overlay": "교실 밖으로 번진 지식",
+        "subtitle": "세계 명문 대학의 강의가 학습자의 일상으로 스며들다",
+        "bgm_hint": "학구적이고 부드러운 피아노와 현악 합주"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 7,
+      "scene_type": "body",
+      "title": "알고리즘 피드로의 전환",
+      "narration_text": "그러나 RSS의 황금기는 영원하지 못했습니다. 2013년 7월 1일, 구글은 구글 리더 서비스를 종료했습니다. 페이스북과 트위터 등 소셜 미디어가 부상하면서, 스스로 구독을 관리하던 모델이 알고리즘이 콘텐츠를 선별하는 소셜 피드 모델에 밀려났기 때문입니다. 이는 단순한 서비스 중단이 아니라, 정보 유통의 주도권이 사용자 개인에게서 플랫폼으로 이동하는 결정적인 전환점이 되었습니다.",
+      "narration_seconds": 33,
+      "prompt": "A split screen effect: on the left, a flat gray screen displaying a service shutdown notice from 2013; on the right, a close-up of a hand scrolling through a colorful social media feed on an early smartphone. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_07_google_reader_sunset.png",
+      "visual_description": "2013년 구글 리더 서비스 종료 알림 창과 스마트폰 화면의 소셜 미디어 피드가 빠르게 흘러가는 모습.",
+      "scene_meta": {
+        "era": "2013년",
+        "mood": "차분하고 경고조의",
+        "transition_hint": "crossfade",
+        "text_overlay": "알고리즘 피드로의 전환",
+        "subtitle": "주도적 구독에서 알고리즘의 선별 시대로",
+        "bgm_hint": "다소 무겁고 반성적인 저음의 첼로 솔로"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 8,
+      "scene_type": "body",
+      "title": "귀를 통한 배움의 복원",
+      "narration_text": "학자 클레이 셔키는 정보 과잉 시대의 진짜 문제는 필터링의 실패라고 진단했습니다. RSS가 사용자가 직접 필터를 설계하게 한 도구였다면, 팟캐스트는 이를 청각의 영역으로 확장했습니다. 팟캐스트는 배움이 반드시 눈으로만 이루어져야 하는가라는 질문을 던졌습니다. 화면 없이 목소리만 들으며 뇌가 스스로 장면을 그리고 지식을 구성해 나가는 인류의 가장 오래된 배움의 통로가 부활한 것입니다.",
+      "narration_seconds": 33,
+      "prompt": "A thoughtful student wearing over-ear headphones sits by a large window on a rainy day, holding an open textbook. Outside, the city lights are blurry. The lighting is soft and moody, emphasizing reflection. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_08_ear_learning_revival.png",
+      "visual_description": "헤드폰을 쓴 청취자가 책을 읽으며 생각에 잠긴 모습.",
+      "scene_meta": {
+        "era": "2000년대 후반",
+        "mood": "사색적이고 내성적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "귀를 통한 배움의 복원",
+        "subtitle": "보이지 않는 소리에서 복원되는 지식의 구조",
+        "bgm_hint": "따뜻하고 서정적인 피아노 멜로디"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 9,
+      "scene_type": "body",
+      "title": "이차적 구술성과 기기의 보급",
+      "narration_text": "월터 옹은 의사소통 역사가 구술에서 문자로, 그리고 다시 이차적 구술성으로 순환한다고 분석했습니다. 이 물결 속에서 2004년 가을, 듀크 대학교는 신입생 1,650명 전원에게 20기가바이트 용량의 아이팟을 배포하는 실험을 진행했습니다. 정보책임자 트레이시 프레이턴 주도로 기획된 이 시도는 강의실을 벗어나 캠퍼스를 걸으며 공부하고, 오디오로 발음 과제를 제출하는 등 배움의 공간을 재설계했습니다.",
+      "narration_seconds": 33,
+      "prompt": "A university campus plaza in North Carolina in 2004 where a group of diverse college students are gathered around a table, holding small metallic portable media players and discussing with interest. Natural afternoon sunlight. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_09_duke_ipod_deployment.png",
+      "visual_description": "2004년 미국 듀크 대학교 신입생들이 파란색 아이팟을 나눠 받고 강의를 듣는 풍경.",
+      "scene_meta": {
+        "era": "2004년",
+        "mood": "활기차고 실험적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "이차적 구술성과 기기의 보급",
+        "subtitle": "듀크 대학교, 캠퍼스 전역에 아이팟을 도입하다",
+        "bgm_hint": "경쾌하고 활발한 미디엄 템포 기타 반주"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 10,
+      "scene_type": "body",
+      "title": "의도와 실제 사용의 간극",
+      "narration_text": "듀크의 평가 보고서는 어학 수업 등에서 오디오 기기의 교육적 효과가 확인되었다고 밝혔습니다. 그러나 상당수 학생이 아이팟을 단순히 음악 감상에 주로 사용했다는 사실도 드러났습니다. 기술을 교육에 활용하려는 의도와 학습자의 실제 사용 사이의 해묵은 간극이 확인된 셈입니다. 기술 혁신은 도입 자체로 보장되는 것이 아니며, 학습자가 스스로 전유하고 통합해 가는 과정에서 꽃피우게 됩니다.",
+      "narration_seconds": 33,
+      "prompt": "A young college student lying on a green campus lawn, wearing headphones connected to a small media player, looking relaxed with a closed textbook beside him. The background shows old brick campus buildings. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_10_duke_use_gap.png",
+      "visual_description": "음악을 들으며 캠퍼스 잔디밭에 누워 있는 대학생과 교육 녹음 과제용 마이크.",
+      "scene_meta": {
+        "era": "2005년",
+        "mood": "현실적이고 성찰적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "의도와 실제 사용의 간극",
+        "subtitle": "기술적 인프라 도입과 학습자의 실질적 전유 방식",
+        "bgm_hint": "다소 속도를 낮춘 플루트와 어쿠스틱 악기 조합"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 11,
+      "scene_type": "body",
+      "title": "개인 교육 생산자의 등장",
+      "narration_text": "대학 강의 팟캐스트에 이어 교사 마크 펜틀턴이 2006년 시작한 커피 브레이크 프렌치는 개인 제작물임에도 수백만 구독자를 확보하며 생산자 변화를 주도했습니다. 교육심리학자들은 청취 학습의 메커니즘에 주목했습니다. 리처드 메이어의 멀티미디어 이론처럼, 팟캐스트 학습은 시각적 간섭을 없애 언어 처리에 집중할 수 있었습니다. 학습자는 목소리만을 통해 지식의 맥락을 스스로 그려낼 수 있었습니다.",
+      "narration_seconds": 33,
+      "prompt": "A close-up of a person sitting in a warm, cozy cafe, writing notes in a French language textbook next to a hot espresso cup. The person is wearing headphones, looking extremely focused. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_11_pentleton_audio_learning.png",
+      "visual_description": "커피숍에서 프랑스어 팟캐스트를 들으며 공책에 필기하는 사람.",
+      "scene_meta": {
+        "era": "2006년",
+        "mood": "아늑하고 몰입도 높은",
+        "transition_hint": "crossfade",
+        "text_overlay": "개인 교육 생산자의 등장",
+        "subtitle": "커피숍에서 만나는 수백만 명의 학습 네트워크",
+        "bgm_hint": "감성적인 어쿠스틱 피아노 연주"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 12,
+      "scene_type": "body",
+      "title": "한국 팟캐스트의 사회적 맥락",
+      "narration_text": "한국의 팟캐스트는 독특한 경로를 밟았습니다. 2011년 4월 스마트폰 보급기에 시작된 나는 꼼수다는 전 세계 팟캐스트 차트 1위를 차지하며 사회를 뒤흔들었습니다. 네 명의 시사 논객이 진행한 이 방송은 풍자 예능 형식이었지만, 수많은 대중이 비판적 시선과 새로운 분석을 자연스레 습득하도록 도왔습니다. 이는 교실 밖 사회적 맥락 속에서 동료 청취자들과 자발적으로 소통한 비형식 학습이었습니다.",
+      "narration_seconds": 33,
+      "prompt": "Four Korean men in their late forties are sitting around a table with multiple microphones in a small, dimly lit recording studio in 2011. They are speaking passionately, surrounded by soundproofing foam. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_12_nacomsoo_political_podcast.png",
+      "visual_description": "2011년 작은 녹음실에서 네 명의 남성들이 열띤 토론을 벌이며 녹음하는 모습.",
+      "scene_meta": {
+        "era": "2011년",
+        "mood": "강렬하고 사회비판적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "한국 팟캐스트의 사회적 맥락",
+        "subtitle": "풍자 예능의 외피를 쓴 새로운 대중적 학습 문화",
+        "bgm_hint": "긴장감을 극대화하는 타악기와 일렉트릭 리프"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 13,
+      "scene_type": "body",
+      "title": "상황학습과 실천 공동체",
+      "narration_text": "진 레이브와 에티엔 웽거의 상황학습 이론처럼, 배움은 지식 전달을 넘어 실천 공동체 안에서 발생합니다. 청취자들은 사회적 이슈에 함께 참여하며 하나의 거대한 학습 연대를 형성했습니다. 이후 한국 팟캐스트 시장은 폭발적으로 성장해 국내 플랫폼 팟빵이 등장했고, 지대넓얕 등이 교양 지식을 대중화했습니다. 배움의 공간은 출퇴근 버스, 산책로, 잠자리 등 일상 곳곳으로 끊임없이 넓어졌습니다.",
+      "narration_seconds": 33,
+      "prompt": "A crowded city bus during a morning commute. A young professional Asian woman is standing, holding a handle, and listening intently to an audio program on her smartphone with wireless earbuds. She has a thoughtful expression. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_13_situated_learning_comm.png",
+      "visual_description": "대중교통 안에서 스마트폰으로 라디오 프로그램을 들으며 정보를 나누는 직장인들.",
+      "scene_meta": {
+        "era": "2012년",
+        "mood": "대중적이고 일상적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "상황학습과 실천 공동체",
+        "subtitle": "교실 밖, 우리 삶의 현장에서 피어난 지혜",
+        "bgm_hint": "안정적이고 현대적인 로파이 비트"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 14,
+      "scene_type": "body",
+      "title": "동영상 스트리밍과 접속의 시대",
+      "narration_text": "동영상 분야에서는 스트리밍 기술이 배움의 방식을 바꾸었습니다. 1995년 롭 글레이저가 설립한 리얼네트웍스의 리얼플레이어는 버퍼링을 겪었으나 실시간 전송 가능성을 보여준 주역이었습니다. 2001년 영국의 공개대학은 이 기술을 접목해 비디오 강의를 스트리밍하여 다운로드의 지루한 기다림을 없앴습니다. 지식을 파일로 소유하던 모델에서 접속하면 언제든 흘러나오는 접속의 시대로 전환된 것입니다.",
+      "narration_seconds": 33,
+      "prompt": "A vintage desktop computer in a study room in 2001, displaying an early online video lecture program on the screen. The video player has simple controls, showing a biology professor lecturing. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_14_realplayer_streaming.png",
+      "visual_description": "1995년 리얼플레이어 인터페이스와 2001년 영국 공개대학의 실시간 비디오 강의 화면.",
+      "scene_meta": {
+        "era": "2001년",
+        "mood": "기술 지향적이고 역사적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "동영상 스트리밍과 접속의 시대",
+        "subtitle": "실시간 전송 기술이 허문 다운로드의 장벽",
+        "bgm_hint": "속도감과 안정감이 조화된 전자 음악"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 15,
+      "scene_type": "body",
+      "title": "비디오 민주화의 분수령",
+      "narration_text": "2005년 채드 헐리, 스티브 천, 자베드 카림이 설립한 유튜브는 인터넷과 교육의 물길을 바꾸었습니다. 별도 설치 없이 영상을 재생하는 기술적 간소함과 무제한 무료 업로드 덕분에 콘텐츠가 폭발했습니다. 이는 교육 콘텐츠 생산의 문턱을 단번에 낮추었습니다. 결과적으로 배움의 권위는 더 이상 학교의 학위가 아니라, 온라인 화면을 통해 개인이 발휘하는 실질적 설득력과 역량으로 이동해 갔습니다.",
+      "narration_seconds": 33,
+      "prompt": "A young Asian computer scientist in his late twenties stands in front of an elephant enclosure at a sunny zoo, holding a consumer camcorder, capturing a casual video clip in 2005. Sunlight filters through trees, casting natural shadows. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_15_youtube_me_at_zoo.png",
+      "visual_description": "2005년 샌디에이고 동물원 코끼리 우리 앞의 최초 유튜브 영상과 유튜브 초창기 로고.",
+      "scene_meta": {
+        "era": "2005년",
+        "mood": "태동기의 설렘과 가벼운",
+        "transition_hint": "crossfade",
+        "text_overlay": "비디오 민주화의 분수령",
+        "subtitle": "누구나 배울 수 있고, 누구나 가르칠 수 있는 공간",
+        "bgm_hint": "밝고 산뜻한 신디사이저 멜로디"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 16,
+      "scene_type": "body",
+      "title": "선의가 만든 가상 칠판",
+      "narration_text": "유튜브 교육의 대표 주자는 살만 칸이었습니다. 2006년 사촌 동생 나디아에게 수학을 원격 지도하던 그는 개념 설명을 녹화해 올렸습니다. 되감기가 쉽고 눈치 볼 필요가 없는 10분짜리 검은 화면 손글씨 영상은 세계적인 반향을 일으켰습니다. 2008년 그는 비영리 칸 아카데미를 세웠습니다. 이후 빌 게이츠 재단과 구글 등 자선의 손길을 이끌며 세계적이고 무상인 교육 플랫폼을 구축했습니다.",
+      "narration_seconds": 32,
+      "prompt": "A dark computer screen featuring colorful digital handwriting of algebraic equations and geometric diagrams. On the wooden desk in front of the monitor sits a professional digital drawing tablet and stylus, illuminated by warm study light. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_16_khan_academy_math.png",
+      "visual_description": "검은색 디지털 화면에 알록달록한 손글씨 수학 풀이가 적혀 가며 설명되는 영상 화면.",
+      "scene_meta": {
+        "era": "2006년",
+        "mood": "감동적이고 희망적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "선의가 만든 가상 칠판",
+        "subtitle": "검은 화면과 손글씨 하나로 전 세계를 구한 공부방",
+        "bgm_hint": "피아노 중심의 잔잔하고 선율적인 어쿠스틱 음악"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 17,
+      "scene_type": "climax",
+      "title": "거꾸로 교실과 배움의 결합",
+      "narration_text": "칸은 거꾸로 교실 모델을 널리 보급했습니다. 집에서 영상으로 기초를 익히고 교실에서 토론하는 이 방식은 스키너의 프로그램 학습과 페퍼트의 구성주의 전통을 새롭게 엮었습니다. 몽골 울란바토르의 소년 바투시그가 영상만을 통해 독학하여 MIT에 합격한 기적 같은 일화는 그 가능성을 대변합니다. 유튜브는 학술 콘텐츠를 대중적 스토리텔링으로 풀어내는 거대한 지식의 요람으로 자리 잡았습니다.",
+      "narration_seconds": 33,
+      "prompt": "A lively high school classroom filled with young teenage students in groups, actively discussing a science project over charts and diagrams. A teacher is walking around, offering guidance. The room is filled with charts and educational posters in soft afternoon light. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_17_flipped_classroom_discussion.png",
+      "visual_description": "학생들이 미리 본 강의 동영상을 기초로 교실에서 삼삼오오 모여 활발히 토론하는 모습.",
+      "scene_meta": {
+        "era": "2010년대 초반",
+        "mood": "활발하고 에너제틱한",
+        "transition_hint": "crossfade",
+        "text_overlay": "거꾸로 교실과 배움의 결합",
+        "subtitle": "수동적 시청을 적극적 토론의 동력으로 바꾸다",
+        "bgm_hint": "템포가 높고 밝은 오케스트라와 목관 악기"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 18,
+      "scene_type": "body",
+      "title": "한국의 인강 문화와 공공 실험",
+      "narration_text": "한국은 2000년대 초 초고속 인터넷을 기반으로 독특한 인강 문화를 발전시켰습니다. 2000년 메가스터디를 시작으로 사교육 인강이 확산되자, 정부는 사교육비를 억제하고 격차를 줄이기 위해 2004년 4월 무료 서비스인 EBSi를 출범했습니다. 안병영 교육부 장관 주도로 마련된 이 국가적 인터넷 플랫폼은 소외 지역의 지리적 단절을 넘어 수많은 청소년들의 갈망을 채우는 배움의 동반자가 되었습니다.",
+      "narration_seconds": 33,
+      "prompt": "A bustling street in an education district of Seoul in the mid-2000s, with glowing neon signs for various private academies and high school students with heavy backpacks walking past academic posters under streetlights at dusk. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_18_ebsi_online_lectures.png",
+      "visual_description": "2000년대 중반 대치동 학원의 전경과 스타 강사 포스터가 붙어 있는 학원가 골목.",
+      "scene_meta": {
+        "era": "2004년",
+        "mood": "현실적이고 열정적인",
+        "transition_hint": "crossfade",
+        "text_overlay": "한국의 인강 문화와 공공 실험",
+        "subtitle": "사교육 과열에 대처하는 공적 플랫폼의 등장",
+        "bgm_hint": "도시적이고 세련된 드럼 비트와 신스패드"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 19,
+      "scene_type": "body",
+      "title": "배속 재생과 학습자의 주도성",
+      "narration_text": "EBSi는 수능 70퍼센트 연계 출제와 연동되어 필수 서비스가 되었습니다. 이용자가 급증하면서 학생들은 영상을 1.5배속이나 2배속으로 시청하며 넘기고 되감는 능동적인 청취 행동을 스스로 발전시켰습니다. 이는 연구팀 분석 결과 학습자가 자신의 메타인지를 발휘해 콘텐츠를 직접 주도하고 통제한 결과였습니다. 배움의 혁신은 기기 자체가 아니라 학습자의 활용에서 탄생함을 말해줍니다.",
+      "narration_seconds": 32,
+      "prompt": "A young South Korean female high school student in her study bedroom late at night, watching a lecture on a computer screen. She wears headphones and holds a pen, looking extremely focused. Soft ambient light from a desk lamp. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_19_double_speed_learning.png",
+      "visual_description": "시골 집 공부방에서 집중해서 인강을 배속 시청하고 있는 여학생.",
+      "scene_meta": {
+        "era": "2000년대 중반",
+        "mood": "성찰적이고 의지 어린",
+        "transition_hint": "crossfade",
+        "text_overlay": "배속 재생과 학습자의 주도성",
+        "subtitle": "기술 설계자의 계획을 넘어선 배속의 메타인지적 주도권",
+        "bgm_hint": "단정하고 집중도 높은 일렉트릭 기타 아르페지오"
+      },
+      "voice_style": "M5"
+    },
+    {
+      "scene": 20,
+      "scene_type": "next_preview",
+      "title": "알고리즘의 그늘과 다음 장의 배움",
+      "narration_text": "지식이 스스로 찾아오는 구독의 시대는 민주화와 편의를 가져왔지만, 이 시기까지 학습자는 여전히 콘텐츠를 단순히 수동적으로 소모하는 소비자에 머물렀습니다. 다음 장에서는 플래시 기술이 열어젖힌 상호작용의 시대를 탐구합니다. 학습자가 화면 속 적극적인 행위자가 되어 마우스를 클릭하고 드래그하는 세계를 만납니다. 보는 배움에서 행하는 배움으로 변모하는 새로운 역사입니다.",
+      "narration_seconds": 33,
+      "prompt": "A close-up over the shoulder of a person using a computer mouse, clicking and dragging interactive graphic shapes on a web browser of a vintage monitor in a brightly lit study. The atmosphere is interactive and modern. documentary style, cinematic quality.",
+      "model": "nano_banana",
+      "image_filename": "ch02_20_flash_interactive_preview.png",
+      "visual_description": "사용자가 컴퓨터 화면 마우스로 플래시 게임 인터페이스를 드래그 앤 드롭으로 움직이며 상호작용하는 모습을 담은 손과 모니터 앵글.",
+      "scene_meta": {
+        "era": "2000년대 후반 예고",
+        "mood": "기대로 가득 차고 활기찬",
+        "transition_hint": "crossfade",
+        "text_overlay": "보는 배움에서 행하는 배움으로",
+        "subtitle": "[다음 예고] 6장. 화면 속 세상을 조작하는 상호작용의 탄생",
+        "bgm_hint": "호기심을 자극하고 약간 템포가 빨라지는 활기찬 하이테크 스타일의 음악"
+      },
+      "voice_style": "M5"
+    }
+  ],
+  "video_meta": {
+    "aspect_ratio": "16:9",
+    "opening_title": "VOD Studio Deck",
+    "closing_text": "다음 장에서 계속...",
+    "default_transition": "crossfade",
+    "bgm_track": null
+  }
+}
