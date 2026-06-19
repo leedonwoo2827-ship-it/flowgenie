@@ -3,6 +3,10 @@
  */
 
 // Google Flow models
+// NOTE (2026-06): The live Flow UI now defaults to a conversational (Gemini agent)
+// panel using "Nano Banana 2". FlowGenie does NOT currently select a model in the
+// UI — it submits the prompt to whatever the chat composer currently uses. These
+// entries are kept for the (stubbed) API mode / future model-selection support.
 export const MODELS = {
   IMAGEN_3_5: { id: 'IMAGEN_3_5', label: 'Imagen 4', default: true },
   GEM_PIX: { id: 'GEM_PIX', label: 'Nano Banana Pro', default: false },
